@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<style>
+#hangtag { 
+	border-bottom: 3em solid #CDC0B0; 
+	border-left: 3em solid transparent; 
+	border-right: 3em solid transparent; 
+	height: 0; 
+	width: 10em;
+	position: relative;
+}
+#hangtag:before {
+	content: "";
+	position: absolute;
+	top: 0.75em;
+	left: 4.5em;
+	width: 0.6em;
+	height: 0.6em;
+	background: #fff;
+	border: 0.25em solid #EDEEE8;	
+	border-radius: 50%;
+}
+#hangtag:after { 
+	content: "";
+	position:absolute;
+	top: 3em;
+	left: -3em;
+	width: 16em; 
+	height: 20em; 
+	background: #CDC0B0;
+}
+</style>
+</head>
+<div id="hangtag"></div>
+
+<body>
+</body>
+</html>
